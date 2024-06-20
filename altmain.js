@@ -29,7 +29,7 @@ const fbxLoader = new FBXLoader()
 fbxLoader.load(
   'assets/BirchTree_1.fbx',
   (treeModel) => {
-    fixTheTree(treeModel)
+    //fixTheTree(treeModel)
     console.log(treeModel)
 
     treeModel.scale.set(0.01, 0.01, 0.01) // Adjust scale as needed
